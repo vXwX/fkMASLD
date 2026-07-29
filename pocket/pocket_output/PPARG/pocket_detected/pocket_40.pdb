@@ -1,0 +1,30 @@
+MODEL        1
+HETATM    1  H   PKT A   1      56.612   5.273   7.305  1.00
+HETATM    2  H   PKT A   2      56.612   4.273   7.305  1.00
+HETATM    3  H   PKT A   3      55.612   5.273   8.305  1.00
+HETATM    4  H   PKT A   4      56.612   5.273   8.305  1.00
+HETATM    5  H   PKT A   5      57.612   5.273   8.305  1.00
+HETATM    6  H   PKT A   6      56.612   6.273   8.305  1.00
+HETATM    7  H   PKT A   7      55.612   5.273   7.305  1.00
+HETATM    8  H   PKT A   8      57.612   5.273   7.305  1.00
+HETATM    9  H   PKT A   9      55.612   6.273   7.305  1.00
+HETATM   10  H   PKT A  10      56.612   6.273   7.305  1.00
+HETATM   11  H   PKT A  11      57.612   6.273   7.305  1.00
+HETATM   12  H   PKT A  12      55.612   5.273   6.305  1.00
+HETATM   13  H   PKT A  13      56.612   5.273   6.305  1.00
+HETATM   14  H   PKT A  14      57.612   5.273   6.305  1.00
+HETATM   15  H   PKT A  15      56.612   6.273   6.305  1.00
+HETATM   16  H   PKT A  16      55.612   3.273   7.305  1.00
+HETATM   17  H   PKT A  17      56.612   3.273   7.305  1.00
+HETATM   18  H   PKT A  18      57.612   3.273   7.305  1.00
+HETATM   19  H   PKT A  19      55.612   4.273   7.305  1.00
+HETATM   20  H   PKT A  20      57.612   4.273   7.305  1.00
+HETATM   21  H   PKT A  21      56.612   3.273   6.305  1.00
+HETATM   22  H   PKT A  22      55.612   4.273   6.305  1.00
+HETATM   23  H   PKT A  23      56.612   4.273   6.305  1.00
+HETATM   24  H   PKT A  24      57.612   4.273   6.305  1.00
+HETATM   25  H   PKT A  25      56.612   3.273   8.305  1.00
+HETATM   26  H   PKT A  26      55.612   4.273   8.305  1.00
+HETATM   27  H   PKT A  27      56.612   4.273   8.305  1.00
+HETATM   28  H   PKT A  28      57.612   4.273   8.305  1.00
+ENDMDL
