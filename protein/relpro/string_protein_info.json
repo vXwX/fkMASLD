@@ -1,0 +1,164 @@
+[
+  {
+    "queryIndex": 0,
+    "queryItem": "ELOVL6",
+    "stringId": "9606.ENSP00000378105",
+    "ncbiTaxonId": 9606,
+    "taxonName": "Homo sapiens",
+    "preferredName": "ELOVL6",
+    "annotation": "Elongation of very long chain fatty acids protein 6; Catalyzes the first and rate-limiting reaction of the four reactions that constitute the long-chain fatty acids elongation cycle. This endoplasmic reticulum-bound enzymatic process allows the addition of 2 carbons to the chain of long- and very long-chain fatty acids (VLCFAs) per cycle. Condensing enzyme that elongates fatty acids with 12, 14 and 16 carbons with higher activity toward C16:0 acyl-CoAs. Catalyzes the synthesis of unsaturated C16 long chain fatty acids and, to a lesser extent, C18:0 and those with low desaturation degre [...] "
+  },
+  {
+    "queryIndex": 1,
+    "queryItem": "MLXIPL",
+    "stringId": "9606.ENSP00000320886",
+    "ncbiTaxonId": 9606,
+    "taxonName": "Homo sapiens",
+    "preferredName": "MLXIPL",
+    "annotation": "Carbohydrate-responsive element-binding protein; Transcriptional repressor. Binds to the canonical and non- canonical E box sequences 5'-CACGTG-3' (By similarity)."
+  },
+  {
+    "queryIndex": 2,
+    "queryItem": "SCD",
+    "stringId": "9606.ENSP00000359380",
+    "ncbiTaxonId": 9606,
+    "taxonName": "Homo sapiens",
+    "preferredName": "SCD",
+    "annotation": "Acyl-CoA desaturase; Stearyl-CoA desaturase that utilizes O(2) and electrons from reduced cytochrome b5 to introduce the first double bond into saturated fatty acyl-CoA substrates. Catalyzes the insertion of a cis double bond at the delta-9 position into fatty acyl-CoA substrates including palmitoyl-CoA and stearoyl-CoA. Gives rise to a mixture of 16:1 and 18:1 unsaturated fatty acids. Plays an important role in lipid biosynthesis. Plays an important role in regulating the expression of genes that are involved in lipogenesis and in regulating mitochondrial fatty acid oxidation (By simi [...] "
+  },
+  {
+    "queryIndex": 3,
+    "queryItem": "PPARA",
+    "stringId": "9606.ENSP00000385523",
+    "ncbiTaxonId": 9606,
+    "taxonName": "Homo sapiens",
+    "preferredName": "PPARA",
+    "annotation": "Peroxisome proliferator-activated receptor alpha; Ligand-activated transcription factor. Key regulator of lipid metabolism. Activated by the endogenous ligand 1-palmitoyl-2-oleoyl-sn- glycerol-3-phosphocholine (16:0/18:1-GPC). Activated by oleylethanolamide, a naturally occurring lipid that regulates satiety. Receptor for peroxisome proliferators such as hypolipidemic drugs and fatty acids. Regulates the peroxisomal beta-oxidation pathway of fatty acids. Functions as transcription activator for the ACOX1 and P450 genes. Transactivation activity requires heterodimerization with RXRA and [...] "
+  },
+  {
+    "queryIndex": 4,
+    "queryItem": "THRSP",
+    "stringId": "9606.ENSP00000281030",
+    "ncbiTaxonId": 9606,
+    "taxonName": "Homo sapiens",
+    "preferredName": "THRSP",
+    "annotation": "Thyroid hormone-inducible hepatic protein; Plays a role in the regulation of lipogenesis, especially in lactating mammary gland. Important for the biosynthesis of triglycerides with medium-length fatty acid chains. May modulate lipogenesis by interacting with MID1IP1 and preventing its interaction with ACACA (By similarity). May function as transcriptional coactivator. May modulate the transcription factor activity of THRB."
+  },
+  {
+    "queryIndex": 5,
+    "queryItem": "DGAT2",
+    "stringId": "9606.ENSP00000228027",
+    "ncbiTaxonId": 9606,
+    "taxonName": "Homo sapiens",
+    "preferredName": "DGAT2",
+    "annotation": "Diacylglycerol O-acyltransferase 2; Essential acyltransferase that catalyzes the terminal and only committed step in triacylglycerol synthesis by using diacylglycerol and fatty acyl CoA as substrates. Required for synthesis and storage of intracellular triglycerides. Probably plays a central role in cytosolic lipid accumulation. In liver, is primarily responsible for incorporating endogenously synthesized fatty acids into triglycerides (By similarity). Functions also as an acyl-CoA retinol acyltransferase (ARAT)."
+  },
+  {
+    "queryIndex": 6,
+    "queryItem": "RXRG",
+    "stringId": "9606.ENSP00000352900",
+    "ncbiTaxonId": 9606,
+    "taxonName": "Homo sapiens",
+    "preferredName": "RXRG",
+    "annotation": "Retinoic acid receptor RXR-gamma; Receptor for retinoic acid. Retinoic acid receptors bind as heterodimers to their target response elements in response to their ligands, all-trans or 9-cis retinoic acid, and regulate gene expression in various biological processes. The RAR/RXR heterodimers bind to the retinoic acid response elements (RARE) composed of tandem 5'-AGGTCA-3' sites known as DR1-DR5. The high affinity ligand for RXRs is 9-cis retinoic acid (By similarity)."
+  },
+  {
+    "queryIndex": 7,
+    "queryItem": "NR1H4",
+    "stringId": "9606.ENSP00000447149",
+    "ncbiTaxonId": 9606,
+    "taxonName": "Homo sapiens",
+    "preferredName": "NR1H4",
+    "annotation": "Bile acid receptor; Ligand-activated transcription factor. Receptor for bile acids (BAs) such as chenodeoxycholic acid (CDCA), lithocholic acid, deoxycholic acid (DCA) and allocholic acid (ACA). Plays a essential role in BA homeostasis through the regulation of genes involved in BA synthesis, conjugation and enterohepatic circulation. Also regulates lipid and glucose homeostasis and is involved innate immune response. The FXR-RXR heterodimer binds predominantly to farnesoid X receptor response elements (FXREs) containing two inverted repeats of the consensus sequence 5'-AGGTCA-3' in wh [...] "
+  },
+  {
+    "queryIndex": 8,
+    "queryItem": "FASN",
+    "stringId": "9606.ENSP00000304592",
+    "ncbiTaxonId": 9606,
+    "taxonName": "Homo sapiens",
+    "preferredName": "FASN",
+    "annotation": "3-hydroxyacyl-[acyl-carrier-protein] dehydratase; Fatty acid synthetase catalyzes the formation of long-chain fatty acids from acetyl-CoA, malonyl-CoA and NADPH. This multifunctional protein has 7 catalytic activities as an acyl carrier protein."
+  },
+  {
+    "queryIndex": 9,
+    "queryItem": "XPR1",
+    "stringId": "9606.ENSP00000356562",
+    "ncbiTaxonId": 9606,
+    "taxonName": "Homo sapiens",
+    "preferredName": "XPR1",
+    "annotation": "Xenotropic and polytropic retrovirus receptor 1; Plays a role in phosphate homeostasis. Mediates phosphate export from the cell. Binds inositol hexakisphosphate (Ins6P) and similar inositol polyphosphates, such as 5-diphospho-inositol pentakisphosphate (5-InsP7); these are important intracellular signaling molecules."
+  },
+  {
+    "queryIndex": 10,
+    "queryItem": "GPAM",
+    "stringId": "9606.ENSP00000265276",
+    "ncbiTaxonId": 9606,
+    "taxonName": "Homo sapiens",
+    "preferredName": "GPAM",
+    "annotation": "Glycerol-3-phosphate acyltransferase 1, mitochondrial; Esterifies acyl-group from acyl-ACP to the sn-1 position of glycerol-3-phosphate, an essential step in glycerolipid biosynthesis."
+  },
+  {
+    "queryIndex": 11,
+    "queryItem": "RXRA",
+    "stringId": "9606.ENSP00000419692",
+    "ncbiTaxonId": 9606,
+    "taxonName": "Homo sapiens",
+    "preferredName": "RXRA",
+    "annotation": "Retinoic acid receptor RXR-alpha; Receptor for retinoic acid that acts as a transcription factor. Forms homo- or heterodimers with retinoic acid receptors (RARs) and binds to target response elements in response to their ligands, all-trans or 9-cis retinoic acid, to regulate gene expression in various biological processes. The RAR/RXR heterodimers bind to the retinoic acid response elements (RARE) composed of tandem 5'-AGGTCA-3' sites known as DR1-DR5 to regulate transcription. The high affinity ligand for retinoid X receptors (RXRs) is 9-cis retinoic acid. In the absence of ligand, th [...] "
+  },
+  {
+    "queryIndex": 12,
+    "queryItem": "RXRB",
+    "stringId": "9606.ENSP00000363817",
+    "ncbiTaxonId": 9606,
+    "taxonName": "Homo sapiens",
+    "preferredName": "RXRB",
+    "annotation": "Retinoic acid receptor RXR-beta; Receptor for retinoic acid. Retinoic acid receptors bind as heterodimers to their target response elements in response to their ligands, all-trans or 9-cis retinoic acid, and regulate gene expression in various biological processes. The RAR/RXR heterodimers bind to the retinoic acid response elements (RARE); Belongs to the nuclear hormone receptor family. NR2 subfamily."
+  },
+  {
+    "queryIndex": 13,
+    "queryItem": "PPARD",
+    "stringId": "9606.ENSP00000310928",
+    "ncbiTaxonId": 9606,
+    "taxonName": "Homo sapiens",
+    "preferredName": "PPARD",
+    "annotation": "Peroxisome proliferator-activated receptor delta; Ligand-activated transcription factor. Receptor that binds peroxisome proliferators such as hypolipidemic drugs and fatty acids. Has a preference for poly-unsaturated fatty acids, such as gamma- linoleic acid and eicosapentanoic acid. Once activated by a ligand, the receptor binds to promoter elements of target genes. Regulates the peroxisomal beta-oxidation pathway of fatty acids. Functions as transcription activator for the acyl-CoA oxidase gene. Decreases expression of NPC1L1 once activated by a ligand. Belongs to the nuclear hormone [...] "
+  },
+  {
+    "queryIndex": 14,
+    "queryItem": "NR1H3",
+    "stringId": "9606.ENSP00000477707",
+    "ncbiTaxonId": 9606,
+    "taxonName": "Homo sapiens",
+    "preferredName": "NR1H3",
+    "annotation": "Oxysterols receptor LXR-alpha; Nuclear receptor that exhibits a ligand-dependent transcriptional activation activity. Interaction with retinoic acid receptor (RXR) shifts RXR from its role as a silent DNA-binding partner to an active ligand-binding subunit in mediating retinoid responses through target genes defined by LXRES (By similarity). LXRES are DR4-type response elements characterized by direct repeats of two similar hexanuclotide half-sites spaced by four nucleotides (By similarity). Plays an important role in the regulation of cholesterol homeostasis, regulating cholesterol up [...] "
+  },
+  {
+    "queryIndex": 15,
+    "queryItem": "ACACA",
+    "stringId": "9606.ENSP00000483300",
+    "ncbiTaxonId": 9606,
+    "taxonName": "Homo sapiens",
+    "preferredName": "ACACA",
+    "annotation": "Acetyl-CoA carboxylase 1; Cytosolic enzyme that catalyzes the carboxylation of acetyl- CoA to malonyl-CoA, the first and rate-limiting step of de novo fatty acid biosynthesis. This is a 2 steps reaction starting with the ATP-dependent carboxylation of the biotin carried by the biotin carboxyl carrier (BCC) domain followed by the transfer of the carboxyl group from carboxylated biotin to acetyl-CoA."
+  },
+  {
+    "queryIndex": 16,
+    "queryItem": "THRB",
+    "stringId": "9606.ENSP00000379904",
+    "ncbiTaxonId": 9606,
+    "taxonName": "Homo sapiens",
+    "preferredName": "THRB",
+    "annotation": "Thyroid hormone receptor beta; Nuclear hormone receptor that can act as a repressor or activator of transcription. High affinity receptor for thyroid hormones, including triiodothyronine and thyroxine."
+  },
+  {
+    "queryIndex": 17,
+    "queryItem": "PPARG",
+    "stringId": "9606.ENSP00000287820",
+    "ncbiTaxonId": 9606,
+    "taxonName": "Homo sapiens",
+    "preferredName": "PPARG",
+    "annotation": "Peroxisome proliferator-activated receptor gamma; Nuclear receptor that binds peroxisome proliferators such as hypolipidemic drugs and fatty acids. Once activated by a ligand, the nuclear receptor binds to DNA specific PPAR response elements (PPRE) and modulates the transcription of its target genes, such as acyl-CoA oxidase. It therefore controls the peroxisomal beta-oxidation pathway of fatty acids. Key regulator of adipocyte differentiation and glucose homeostasis. ARF6 acts as a key regulator of the tissue-specific adipocyte P2 (aP2) enhancer. Acts as a critical regulator of gut ho [...] "
+  }
+]
