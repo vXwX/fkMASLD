@@ -1,0 +1,11 @@
+ID,SMILES,Best_Gene,DrugCLIP_Score,Activity_Level,Toxicity_Level,Known_Target_Genes,Active_Targets
+T13092,CC[C@H]1[C@@H](O)[C@@H]2[C@H](CC[C@]3(C)[C@@H]([C@H](C)CCC(=O)NCCS(=O)(=O)O)CC[C@@H]23)[C@@]2(C)CC[C@@H](O)C[C@@H]12,PPARG,0.542,高活性,低毒性,NR1H4,9971;227289;151306
+T15575,COc1ccc(S(=O)(=O)n2cc(CCC(=O)O)c3cc(OC)ccc32)cc1,PPARG,0.4641,高活性,低毒性,PPARA;PPARD;PPARG,5468;5467;5465
+T15209,CCCCC1(CCCC)CN(c2ccccc2)c2cc(SC)c(OCC(=O)N[C@@H](C(=O)NCC(=O)O)c3ccccc3)cc2S(=O)(=O)C1,PPARD,0.4592,高活性,低毒性,NR1H4,9971;6555
+T16376,CCCCC1(CCCC)CN(c2ccccc2)c2cc(SC)c(OCC(=O)N[C@@H](C(=O)N[C@@H](CC)C(=O)O)c3ccc(O)cc3)cc2S(=O)(=O)N1,PPARD,0.4509,高活性,低毒性,NR1H4,9971;6555
+T15821,Cc1ccc(Cn2nc(CCCc3ccc(OC(C)(C)C(=O)O)cc3)[nH]c2=O)cc1,THRSP,0.4277,高活性,低毒性,PPARA;PPARD;PPARG,5468;5467;5465
+T62622,O=C(O)c1ccc(-c2nn(C(=O)c3c(Cl)cccc3C(F)(F)F)c3ccccc23)cc1,RXRB,0.4255,高活性,低毒性,PPARG,6097;5468
+T63898,CO[C@H](Cc1ccc(OCCc2nc(-c3ccccc3)oc2C)c2ccsc12)C(=O)O,PPARG,0.3962,高活性,低毒性,PPARA;PPARD;PPARG,5468;5467;5465
+T4628,CCO[C@H](COc1ccc(C(F)(F)F)cc1)CSc1ccc(OCC(=O)O)c(C)c1,THRSP,0.3726,高活性,低毒性,PPARA;PPARD,5467;5465
+T27489,COc1ccc2c(ccn2S(=O)(=O)c2cccc(C(=O)Nc3ccc(C)cc3C(=O)O)c2)c1C,PPARG,0.3635,高活性,低毒性,PPARA;PPARD;PPARG,5468;5467;5465
+T22843,CN1c2ccc([N+](=O)[O-])cc2N=C(c2ccc(C(=O)O)cc2)c2cc3c(cc21)C(C)(C)CCC3(C)C,AOC3,0.3633,高活性,低毒性,RXRA;RXRB;RXRG,6256;6257;6258
