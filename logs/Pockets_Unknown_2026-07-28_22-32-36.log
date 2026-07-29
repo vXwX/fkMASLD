@@ -1,0 +1,4 @@
+Tue, 28 Jul 2026 22:32:36 main.py[line:611] INFO cubin文件不存在: ./wrapper/kernel/d3kernel.cubin，开始编译...
+Tue, 28 Jul 2026 22:32:36 main.py[line:615] ERROR CUDA源文件不存在: ./wrapper/kernel/d3kernel.cu
+Tue, 28 Jul 2026 22:32:36 main.py[line:616] ERROR 请确保CUDA源文件存在或使用--kernelfile参数指定正确的路径
+Tue, 28 Jul 2026 22:32:36 xla_bridge.py[line:878] DEBUG Clearing JAX backend caches.
