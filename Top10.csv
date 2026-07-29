@@ -1,0 +1,11 @@
+ID,DrugCLIP_Score,MASLD_Final_Score,Rank_Sum,Gene_UNIQ,Activity_Level,Toxicity_Level,Confirmed_Target
+T2A2481,0.4729,0.8098,6,PPARG,活性,低毒性,Yes
+T4083,0.4473,0.82,7,NR1H3,活性,低毒性,
+TQ0252,0.4551,0.82,7,NR1H3,活性,低毒性,Yes
+TQ0243,0.385,0.88,8,PPARG,活性,低毒性,
+T4727,0.4309,0.7871,11,PPARG,活性,低毒性,
+T13092,0.542,0.7218,14,PPARG,高活性,低毒性,Yes
+T34788,0.4573,0.6542,17,PPARG,活性,低毒性,
+T11428,0.2395,0.7578,20,PPARG,高活性,低毒性,Yes
+T11662L,0.3457,0.7404,20,PPARG,高活性,低毒性,
+T11954,0.3186,0.7461,20,PPARG,活性,低毒性,Yes
