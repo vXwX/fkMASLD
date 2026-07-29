@@ -1,0 +1,201 @@
+Rank,Original_ID,Type,Gene_Symbol,Protein_Name,UniProt_ID,Entrez_GeneID,Molecule_Count
+1,P43405,RefSeq,SYK,spleen associated tyrosine kinase,P43405,6850,1472
+2,O96028,RefSeq,NSD2,nuclear receptor binding SET domain protein 2,O96028,7468,1251
+3,ABI96208,RefSeq,CYP3A4,cytochrome P450 family 3 subfamily A member 4,P08684,1576,1221
+4,NP_000756,RefSeq,CYP3A7,cytochrome P450 family 3 subfamily A member 7,P24462,1551,1093
+5,ANW61984,RefSeq,CYP2D6,cytochrome P450 family 2 subfamily D member 6 (gene/pseudogene),P10635,1565,1051
+6,QLI62812,RefSeq,CYP2C9,cytochrome P450 family 2 subfamily C member 9,P11712,1559,894
+7,AAI07878,RefSeq,TDP1,tyrosyl-DNA phosphodiesterase 1,Q9NUW8,55775,879
+8,AAV41877,RefSeq,CYP2C19,cytochrome P450 family 2 subfamily C member 19,P33261,1557,840
+9,AAI32976,RefSeq,AR,androgen receptor,P10275,367,794
+10,ADZ17378,RefSeq,ESRRA,estrogen related receptor alpha,P11474,2101,728
+11,AGS09764,RefSeq,CYP2C9,cytochrome P450 family 2 subfamily C member 9,P11712,1559,721
+12,EAW99313,RefSeq,CYP1A2,cytochrome P450 family 1 subfamily A member 2,P05177,1544,716
+13,AEP43755,RefSeq,ESR1,estrogen receptor 1,P03372,2099,670
+14,ADZ17384,RefSeq,NR1I2,nuclear receptor subfamily 1 group I member 2,O75469,8856,646
+15,ACA62796,RefSeq,,,,,622
+16,NP_001257783,RefSeq,,,,,615
+17,AAI13617,RefSeq,GLI3,GLI family zinc finger 3,P10071,2737,546
+18,AAY56401,RefSeq,NR1I3,nuclear receptor subfamily 1 group I member 3,Q14994,9970,461
+19,ABB72139,RefSeq,PGR,progesterone receptor,P06401,5241,430
+20,NP_006155,RefSeq,NFE2L2,NFE2 like bZIP transcription factor 2,Q16236,4780,398
+21,B45705,RefSeq,,,,,394
+22,NP_000610,RefSeq,IFNG,interferon gamma,P01579,3458,384
+23,CAQ07474,RefSeq,,,,,382
+24,ADZ17337,RefSeq,RARA,retinoic acid receptor alpha,P10276,5914,376
+25,NP_000752,RefSeq,CYP1A2,cytochrome P450 family 1 subfamily A member 2,P05177,1544,370
+26,EAL24281,RefSeq,,,,,353
+27,AAH14804,RefSeq,,,,,346
+28,AAA29795,RefSeq,,,,,341
+29,NP_059488,RefSeq,CYP3A4,cytochrome P450 family 3 subfamily A member 4,P08684,1576,333
+30,P13699,RefSeq,,,,,326
+31,Q12809,RefSeq,KCNH2,potassium voltage-gated channel subfamily H member 2,Q12809,3757,323
+32,Q99700,RefSeq,ATXN2,ataxin 2,Q99700,6311,323
+33,AAH11558,RefSeq,NFE2L2,NFE2 like bZIP transcription factor 2,Q16236,4780,318
+34,P40261,RefSeq,NNMT,nicotinamide N-methyltransferase,P40261,4837,306
+35,P21964,RefSeq,COMT,catechol-O-methyltransferase,P21964,1312,306
+36,P50135,RefSeq,HNMT,histamine N-methyltransferase,P50135,3176,306
+37,NP_001119587,RefSeq,TP53,tumor protein p53,P04637,7157,304
+38,Q14749,RefSeq,GNMT,glycine N-methyltransferase,Q14749,27232,303
+39,P11086,RefSeq,PNMT,phenylethanolamine N-methyltransferase,P11086,5409,303
+40,Q14353,RefSeq,GAMT,guanidinoacetate N-methyltransferase,Q14353,2593,303
+41,AAH96839,RefSeq,HTR2A,5-hydroxytryptamine receptor 2A,P28223,3356,299
+42,P01574,RefSeq,IFNB1,interferon beta 1,P01574,3456,295
+43,NP_000729,RefSeq,CHRM1,cholinergic receptor muscarinic 1,P11229,1128,294
+44,Q9BV86,RefSeq,NTMT1,N-terminal Xaa-Pro-Lys N-methyltransferase 1,Q9BV86,28989,290
+45,AAV31779,RefSeq,ESR2,estrogen receptor 2,Q92731,2100,286
+46,EAW77416,RefSeq,CYP19A1,cytochrome P450 family 19 subfamily A member 1,P11511,1588,284
+47,P09992,RefSeq,,,,,283
+48,ADP91253,RefSeq,NR3C1,nuclear receptor subfamily 3 group C member 1,P04150,2908,274
+49,P04637,RefSeq,TP53,tumor protein p53,P04637,7157,261
+50,NP_001191727,RefSeq,KCNH2,potassium voltage-gated channel subfamily H member 2,Q12809,3757,259
+51,BAH02283,RefSeq,PPARG,peroxisome proliferator activated receptor gamma,P37231,5468,259
+52,P41595,RefSeq,HTR2B,5-hydroxytryptamine receptor 2B,P41595,3357,240
+53,AAG24257,RefSeq,,,,,236
+54,2O23_A,RefSeq,,,,,231
+55,2O23_B,RefSeq,,,,,231
+56,P35462,RefSeq,DRD3,dopamine receptor D3,P35462,1814,230
+57,NP_035411,RefSeq,,,,,230
+58,ABQ01243,RefSeq,KCNH2,potassium voltage-gated channel subfamily H member 2,Q12809,3757,229
+59,P35348,RefSeq,ADRA1A,adrenoceptor alpha 1A,P35348,148,227
+60,P28223,RefSeq,HTR2A,5-hydroxytryptamine receptor 2A,P28223,3356,226
+61,NP_387512,RefSeq,DRD3,dopamine receptor D3,P35462,1814,222
+62,NP_000785,RefSeq,DRD1,dopamine receptor D1,P21728,1812,220
+63,EAW81333,RefSeq,TSHR,thyroid stimulating hormone receptor,P16473,7253,214
+64,P08913,RefSeq,ADRA2A,adrenoceptor alpha 2A,P08913,150,206
+65,EAX06628,RefSeq,JUN,"Jun proto-oncogene, AP-1 transcription factor subunit",P05412,3725,206
+66,P23975,RefSeq,SLC6A2,solute carrier family 6 member 2,P23975,6530,204
+67,P00533,RefSeq,EGFR,epidermal growth factor receptor,P00533,1956,204
+68,P14416,RefSeq,DRD2,dopamine receptor D2,P14416,1813,201
+69,P08908,RefSeq,HTR1A,5-hydroxytryptamine receptor 1A,P08908,3350,198
+70,NP_056979,RefSeq,GMNN,geminin DNA replication inhibitor,O75496,51053,197
+71,NP_000760,RefSeq,CYP2C19,cytochrome P450 family 2 subfamily C member 19,P33261,1557,196
+72,NP_000918,RefSeq,ABCB1,ATP binding cassette subfamily B member 1,P08183,5243,193
+73,BAC78637,RefSeq,,,,,192
+74,BAC78638,RefSeq,,,,,192
+75,AAI14949,RefSeq,MAPT,microtubule associated protein tau,P10636,4137,192
+76,2QQS_A,RefSeq,,,,,191
+77,NP_001017535,RefSeq,VDR,vitamin D receptor,P11473,7421,190
+78,Q01959,RefSeq,SLC6A3,solute carrier family 6 member 3,Q01959,6531,188
+79,P35968,RefSeq,KDR,kinase insert domain receptor,P35968,3791,178
+80,P0DTD1,RefSeq,,,,,177
+81,P08172,RefSeq,CHRM2,cholinergic receptor muscarinic 2,P08172,1129,176
+82,P18825,RefSeq,ADRA2C,adrenoceptor alpha 2C,P18825,152,176
+83,P18089,RefSeq,ADRA2B,adrenoceptor alpha 2B,P18089,151,176
+84,P28335,RefSeq,HTR2C,5-hydroxytryptamine receptor 2C,P28335,3358,175
+85,P36888,RefSeq,FLT3,fms related receptor tyrosine kinase 3,P36888,2322,173
+86,P11229,RefSeq,CHRM1,cholinergic receptor muscarinic 1,P11229,1128,171
+87,AAH14840,RefSeq,SMAD2,SMAD family member 2,Q15796,4087,171
+88,AAH50743,RefSeq,SMAD3,SMAD family member 3,P84022,4088,171
+89,NP_000567,RefSeq,IL1B,interleukin 1 beta,P01584,3553,170
+90,NP_000762,RefSeq,CYP2C9,cytochrome P450 family 2 subfamily C member 9,P11712,1559,168
+91,AAH21195,RefSeq,DRD2,dopamine receptor D2,P14416,1813,167
+92,P35372,RefSeq,OPRM1,opioid receptor mu 1,P35372,4988,166
+93,AAP35567,RefSeq,ALDH1A1,aldehyde dehydrogenase 1 family member A1,P00352,216,166
+94,P00519,RefSeq,ABL1,"ABL proto-oncogene 1, non-receptor tyrosine kinase",P00519,25,162
+95,P08684,RefSeq,CYP3A4,cytochrome P450 family 3 subfamily A member 4,P08684,1576,161
+96,P0DMS8,RefSeq,ADORA3,adenosine A3 receptor,P0DMS8,140,161
+97,AMB37292,RefSeq,,,,,161
+98,P41145,RefSeq,OPRK1,opioid receptor kappa 1,P41145,4986,159
+99,P31645,RefSeq,SLC6A4,solute carrier family 6 member 4,P31645,6532,159
+100,P21728,RefSeq,DRD1,dopamine receptor D1,P21728,1812,157
+1,1559,GeneID,CYP2C9,cytochrome P450 family 2 subfamily C member 9,P11712,1559,1560
+2,6850,GeneID,SYK,spleen associated tyrosine kinase,P43405,6850,1461
+3,7468,GeneID,NSD2,nuclear receptor binding SET domain protein 2,O96028,7468,1259
+4,1565,GeneID,CYP2D6,cytochrome P450 family 2 subfamily D member 6 (gene/pseudogene),P10635,1565,1188
+5,1551,GeneID,CYP3A7,cytochrome P450 family 3 subfamily A member 7,P24462,1551,1095
+6,1544,GeneID,CYP1A2,cytochrome P450 family 1 subfamily A member 2,P05177,1544,1055
+7,1557,GeneID,CYP2C19,cytochrome P450 family 2 subfamily C member 19,P33261,1557,1042
+8,1576,GeneID,CYP3A4,cytochrome P450 family 3 subfamily A member 4,P08684,1576,836
+9,367,GeneID,AR,androgen receptor,P10275,367,827
+10,2101,GeneID,ESRRA,estrogen related receptor alpha,P11474,2101,731
+11,8856,GeneID,NR1I2,nuclear receptor subfamily 1 group I member 2,O75469,8856,718
+12,2099,GeneID,ESR1,estrogen receptor 1,P03372,2099,699
+13,7157,GeneID,TP53,tumor protein p53,P04637,7157,630
+14,24831,GeneID,,,,24831,616
+15,3757,GeneID,KCNH2,potassium voltage-gated channel subfamily H member 2,Q12809,3757,600
+16,4780,GeneID,NFE2L2,NFE2 like bZIP transcription factor 2,Q16236,4780,566
+17,2737,GeneID,GLI3,GLI family zinc finger 3,P10071,2737,546
+18,19885,GeneID,,,,19885,531
+19,5241,GeneID,PGR,progesterone receptor,P06401,5241,474
+20,3356,GeneID,HTR2A,5-hydroxytryptamine receptor 2A,P28223,3356,405
+21,5243,GeneID,ABCB1,ATP binding cassette subfamily B member 1,P08183,5243,404
+22,1128,GeneID,CHRM1,cholinergic receptor muscarinic 1,P11229,1128,396
+23,28989,GeneID,NTMT1,N-terminal Xaa-Pro-Lys N-methyltransferase 1,Q9BV86,28989,394
+24,196,GeneID,AHR,aryl hydrocarbon receptor,P35869,196,393
+25,1814,GeneID,DRD3,dopamine receptor D3,P35462,1814,391
+26,5914,GeneID,RARA,retinoic acid receptor alpha,P10276,5914,391
+27,3458,GeneID,IFNG,interferon gamma,P01579,3458,384
+28,1813,GeneID,DRD2,dopamine receptor D2,P14416,1813,354
+29,116160065,GeneID,,,,116160065,344
+30,2100,GeneID,ESR2,estrogen receptor 2,Q92731,2100,329
+31,956584,GeneID,,,,956584,326
+32,956586,GeneID,,,,956586,326
+33,1588,GeneID,CYP19A1,cytochrome P450 family 19 subfamily A member 1,P11511,1588,324
+34,6311,GeneID,ATXN2,ataxin 2,Q99700,6311,322
+35,5468,GeneID,PPARG,peroxisome proliferator activated receptor gamma,P37231,5468,319
+36,43740568,GeneID,,,,43740568,317
+37,1812,GeneID,DRD1,dopamine receptor D1,P21728,1812,313
+38,4837,GeneID,NNMT,nicotinamide N-methyltransferase,P40261,4837,306
+39,3176,GeneID,HNMT,histamine N-methyltransferase,P50135,3176,306
+40,2593,GeneID,GAMT,guanidinoacetate N-methyltransferase,Q14353,2593,303
+41,27232,GeneID,GNMT,glycine N-methyltransferase,Q14749,27232,303
+42,5409,GeneID,PNMT,phenylethanolamine N-methyltransferase,P11086,5409,303
+43,3456,GeneID,IFNB1,interferon beta 1,P01574,3456,295
+44,2908,GeneID,NR3C1,nuclear receptor subfamily 3 group C member 1,P04150,2908,294
+45,7151,GeneID,TOP1P1,DNA topoisomerase I pseudogene 1,,7151,294
+46,956592,GeneID,,,,956592,283
+47,4088,GeneID,SMAD3,SMAD family member 3,P84022,4088,239
+48,7421,GeneID,VDR,vitamin D receptor,P11473,7421,235
+49,7253,GeneID,TSHR,thyroid stimulating hormone receptor,P16473,7253,232
+50,43,GeneID,ACHE,acetylcholinesterase (Yt blood group),P22303,43,228
+51,3357,GeneID,HTR2B,5-hydroxytryptamine receptor 2B,P41595,3357,223
+52,148,GeneID,ADRA1A,adrenoceptor alpha 1A,P35348,148,223
+53,3725,GeneID,JUN,"Jun proto-oncogene, AP-1 transcription factor subunit",P05412,3725,210
+54,79915,GeneID,ATAD5,ATPase family AAA domain containing 5,Q96QE3,79915,208
+55,3106,GeneID,HLA-B,"major histocompatibility complex, class I, B",P01889,3106,207
+56,154,GeneID,ADRB2,adrenoceptor beta 2,P07550,154,199
+57,3791,GeneID,KDR,kinase insert domain receptor,P35968,3791,198
+58,836,GeneID,CASP3,caspase 3,P42574,836,197
+59,51053,GeneID,GMNN,geminin DNA replication inhibitor,O75496,51053,197
+60,4137,GeneID,MAPT,microtubule associated protein tau,P10636,4137,194
+61,9971,GeneID,NR1H4,nuclear receptor subfamily 1 group H member 4,Q96RI1,9971,190
+62,150,GeneID,ADRA2A,adrenoceptor alpha 2A,P08913,150,187
+63,4988,GeneID,OPRM1,opioid receptor mu 1,P35372,4988,185
+64,6530,GeneID,SLC6A2,solute carrier family 6 member 2,P23975,6530,185
+65,4286,GeneID,MITF,melanocyte inducing transcription factor,O75030,4286,185
+66,6531,GeneID,SLC6A3,solute carrier family 6 member 3,Q01959,6531,181
+67,1080,GeneID,CFTR,CF transmembrane conductance regulator,P13569,1080,181
+68,25,GeneID,ABL1,"ABL proto-oncogene 1, non-receptor tyrosine kinase",P00519,25,178
+69,3350,GeneID,HTR1A,5-hydroxytryptamine receptor 1A,P08908,3350,175
+70,3553,GeneID,IL1B,interleukin 1 beta,P01584,3553,175
+71,4087,GeneID,SMAD2,SMAD family member 2,Q15796,4087,171
+72,9734,GeneID,HDAC9,histone deacetylase 9,Q9UKV0,9734,169
+73,4193,GeneID,MDM2,MDM2 proto-oncogene,Q00987,4193,169
+74,1129,GeneID,CHRM2,cholinergic receptor muscarinic 2,P08172,1129,166
+75,2322,GeneID,FLT3,fms related receptor tyrosine kinase 3,P36888,2322,163
+76,3417,GeneID,IDH1,isocitrate dehydrogenase (NADP(+)) 1,O75874,3417,162
+77,1489834,GeneID,,,,1489834,161
+78,152,GeneID,ADRA2C,adrenoceptor alpha 2C,P18825,152,160
+79,4194,GeneID,MDM4,MDM4 regulator of p53,O15151,4194,159
+80,100757539,GeneID,,,,100757539,157
+81,4986,GeneID,OPRK1,opioid receptor kappa 1,P41145,4986,155
+82,3358,GeneID,HTR2C,5-hydroxytryptamine receptor 2C,P28335,3358,155
+83,1133,GeneID,CHRM5,cholinergic receptor muscarinic 5,P08912,1133,155
+84,29994,GeneID,BAZ2B,bromodomain adjacent to zinc finger domain 2B,Q9UIF8,29994,150
+85,65975,GeneID,STK33,serine/threonine kinase 33,Q9BYT3,65975,147
+86,151,GeneID,ADRA2B,adrenoceptor alpha 2B,P18089,151,146
+87,840,GeneID,CASP7,caspase 7,P55210,840,146
+88,3269,GeneID,HRH1,histamine receptor H1,P35367,3269,143
+89,10013,GeneID,HDAC6,histone deacetylase 6,Q9UBN7,10013,141
+90,142,GeneID,PARP1,poly(ADP-ribose) polymerase 1,P09874,142,141
+91,1132,GeneID,CHRM4,cholinergic receptor muscarinic 4,P08173,1132,138
+92,51426,GeneID,POLK,DNA polymerase kappa,Q9UBT6,51426,136
+93,3315,GeneID,HSPB1,heat shock protein family B (small) member 1,P04792,3315,136
+94,5467,GeneID,PPARD,peroxisome proliferator activated receptor delta,Q03181,5467,135
+95,2932,GeneID,GSK3B,glycogen synthase kinase 3 beta,P49841,2932,134
+96,9212,GeneID,AURKB,aurora kinase B,Q96GD4,9212,133
+97,7525,GeneID,YES1,"YES proto-oncogene 1, Src family tyrosine kinase",P07947,7525,131
+98,6256,GeneID,RXRA,retinoid X receptor alpha,P19793,6256,130
+99,3932,GeneID,LCK,"LCK proto-oncogene, Src family tyrosine kinase",P06239,3932,129
+100,3064,GeneID,HTT,huntingtin,P42858,3064,128
