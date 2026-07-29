@@ -21,3 +21,7 @@ rad.json
 *.flf
 #Test results file
 TestResults.xml
+#data used but too large
+data/activity.csv
+data/toxicity.csv
+bioassay/
