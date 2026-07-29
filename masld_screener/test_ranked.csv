@@ -1,6 +1,0 @@
-rank,name,smiles,MW,LogP,TPSA,HBD,HBA,RotB,Lipinski_violations,max_tc,best_match,best_target,physchem_compliance,toxic_score,final_score
-1,Lanifibranor (IVA-337),O=C(O)CCCc1cc2cc(Cl)ccc2n1S(=O)(=O)c1ccc2ncsc2c1,434.93,4.55,89.26,1,5,6,0,1.0,Lanifibranor (IVA-337),PPAR-alpha/gamma/delta,1.0,0.8,0.94
-2,Resmetirom,CC(C)c1cc(Oc2c(Cl)cc(-n3nc(C#N)c(=O)[nH]c3=O)cc2Cl)n[nH]c1=O,435.23,2.1,146.52,2,7,4,0,1.0,Resmetirom,THR-beta,1.0,0.6,0.88
-3,Obeticholic acid (OCA),CC[C@H]1[C@@H](O)[C@@H]2[C@H](CC[C@]3(C)[C@@H]([C@H](C)CCC(=O)O)CC[C@@H]23)[C@@]2(C)CC[C@@H](O)C[C@@H]12,420.63,5.11,77.76,3,3,5,1,1.0,Obeticholic acid (OCA),FXR,1.0,0.6,0.88
-4,Firsocostat (GS-0976),COc1ccccc1[C@H](Cn1c(=O)n(C(C)(C)C(=O)O)c(=O)c2c(C)c(-c3ncco3)sc21)OC1CCOCC1,569.64,3.95,135.02,1,9,9,1,1.0,Firsocostat (GS-0976),ACC,1.0,0.6,0.88
-5,Denifanstat (TVB-2640),Cc1nc(-c2cc(C(=O)N3CCC(c4ccc(C#N)cc4)CC3)c(C)cc2C2CCC2)n[nH]1,439.56,5.25,85.67,1,4,4,1,1.0,Denifanstat (TVB-2640),FASN,1.0,0.4,0.82
