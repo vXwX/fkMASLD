@@ -1,0 +1,5 @@
+rdkit
+admet-ai
+pandas
+numpy
+tqdm
