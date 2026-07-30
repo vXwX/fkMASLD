@@ -22,10 +22,11 @@ MASLD (Metabolic dysfunction-Associated Steatotic Liver Disease) 药物发现虚
 | 中 | Positive 占比 > 5% 或 ≥ 1 个靶点 | 任意 Positive 记录 |
 | 低 | 全部 Negative 或无数据 | 全部 Negative 或无数据 |
 
-## 使用 Skill（推荐）
+## 使用 Agent
 
-在 opencode CLI 中直接说"按 MASLD 药物筛选流程处理"，即可自动加载本项目对应的 Skill，
-按照标准化流程执行各阶段脚本。
+在 AI agent（如 opencode）会话中直接说"按 MASLD 药物筛选流程处理"即可自动加载本流程。
+`SKILL.md` 定义了完整的 pipeline 描述，需将 `SKILL.md` 放置在 agent 可识别的 skills 目录下
+（如 `.opencode/skills/` 或 `~/.config/opencode/skill/`）。
 
 ## 手动运行流程
 
