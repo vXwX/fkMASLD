@@ -5,44 +5,13 @@ MASLD (Metabolic dysfunction-Associated Steatotic Liver Disease) 药物发现虚
 ## 目录结构
 
 ```
-├── molecule/                    # 化合物库
-│   ├── extract_smiles.py        # SDF → SMILES 提取（去重）
-│   └── T001_TargetMol_SMILES.csv  # 22868 个分子
-├── data/
-│   ├── bioassay/                # PubChem 活性/毒性数据
-│   │   ├── activity.csv         # 523 万条活性数据
-│   │   └── toxicity.csv         # 78 万条毒性数据
-│   ├── property/                # 理化性质（22868 分子）
-│   ├── fetch_bioassay.py        # PubChem 活性/毒性获取
-│   └── fetch_properties.py      # PubChem 理化性质获取
-├── rank/
-│   ├── rank_molecules.py        # 活性×毒性 9宫格分层排序
-│   ├── ranked_molecules.csv     # 14404 分子排序结果
-│   ├── export_targets.py        # 靶点频次统计
-│   └── map_targets.py           # RefSeq → 基因名映射
-├── protein/
-│   ├── pdb_apo/                 # 18 个空蛋白 PDB 结构
-│   ├── enrichment/              # GO/KEGG/Reactome 富集分析
-│   ├── relpro/                  # STRING PPI 网络扩展
-│   └── fetch_pdb_structures.py  # PDB 下载+空蛋白生成
-├── pocket/
-│   ├── run_d3pockets.py         # D3Pockets 空腔检测
-│   ├── pocket_output/           # 各蛋白检测到的口袋
-│   └── score/
-│       ├── prepare_mols.py      # SMILES → 3D 构象 → LMDB
-│       ├── run_scoring.py       # DrugCLIP 打分 (GPU)
-│       ├── merge_scores.py      # 合并所有基因打分
-│       └── results/             # 409608 条打分记录
-├── masld_screener/              # 备选 MASLD 筛选管道
-│   └── T001_ranked.csv          # 81 个候选分子
-├── top_candidates.csv           # 97056 分子-蛋白对
-├── top_candidates_unique.csv    # 5392 个唯一分子
-├── top_candidates_confirmed_targets.csv  # 64 个实验验证靶点分子
-├── top_candidates_vs_masld.csv  # 两条管道交集（16 个）
-├── top_10_final.csv             # 最终 Top 10 候选
-├── classification_criteria.csv  # 活性/毒性分层标准
-├── cross_analysis.py            # 交叉分析
-└── pipeline.tex                 # 流程图（Overleaf 可用）
+├── molecule/           # 化合物库 (22868 SMILES)
+├── data/               # PubChem 数据 (活性/毒性/理化性质)
+├── rank/               # 活性×毒性 分层排序
+├── protein/            # 靶点分析 + 18 空蛋白 PDB
+├── pocket/             # D3Pockets 口袋检测 + DrugCLIP 打分
+├── Top10.csv    # 最终 Top 10 候选分子
+└── SKILL.md            # opencode Skill 定义
 ```
 
 ## 分层标准
@@ -53,7 +22,12 @@ MASLD (Metabolic dysfunction-Associated Steatotic Liver Disease) 药物发现虚
 | 中 | Positive 占比 > 5% 或 ≥ 1 个靶点 | 任意 Positive 记录 |
 | 低 | 全部 Negative 或无数据 | 全部 Negative 或无数据 |
 
-## 运行流程
+## 使用 Skill（推荐）
+
+在 opencode CLI 中直接说"按 MASLD 药物筛选流程处理"，即可自动加载本项目对应的 Skill，
+按照标准化流程执行各阶段脚本。
+
+## 手动运行流程
 
 1. **分子准备**: `conda run -n env python molecule/extract_smiles.py`
 2. **数据获取**: `conda run -n env python data/fetch_properties.py` + `fetch_bioassay.py`
