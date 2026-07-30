@@ -55,13 +55,13 @@ MASLD (Metabolic dysfunction-Associated Steatotic Liver Disease) 药物发现虚
 
 ## 运行流程
 
-1. **分子准备**: `conda run -n tmp python molecule/extract_smiles.py`
-2. **数据获取**: `conda run -n tmp python data/fetch_properties.py` + `fetch_bioassay.py`
-3. **分层排序**: `conda run -n tmp python rank/rank_molecules.py`
-4. **蛋白结构**: `conda run -n tmp python protein/fetch_pdb_structures.py`
-5. **口袋检测**: `conda run -n D3Pockets2J python pocket/run_d3pockets.py`
-6. **DrugCLIP**: `conda run -n tmp python pocket/score/prepare_mols.py` → `CUDA_VISIBLE_DEVICES=0 conda run -n LigUnity python pocket/score/run_scoring.py`
-7. **交叉分析**: `conda run -n tmp python cross_analysis.py`
+1. **分子准备**: `conda run -n env python molecule/extract_smiles.py`
+2. **数据获取**: `conda run -n env python data/fetch_properties.py` + `fetch_bioassay.py`
+3. **分层排序**: `conda run -n env python rank/rank_molecules.py`
+4. **蛋白结构**: `conda run -n env python protein/fetch_pdb_structures.py`
+5. **口袋检测**: `conda run -n D3Pockets python pocket/run_d3pockets.py`
+6. **DrugCLIP**: `conda run -n env python pocket/score/prepare_mols.py` → `CUDA_VISIBLE_DEVICES=0 conda run -n DrugClip python pocket/score/run_scoring.py`
+7. **交叉分析**: `conda run -n env python cross_analysis.py`
 
 ## 环境要求
 
