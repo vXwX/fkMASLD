@@ -1,0 +1,4 @@
+Level,Activity_Condition,Toxicity_Condition
+High,Positive ratio > 30% AND ≥ 2 targets,Contains high-risk keywords (hERG/hepatotox/carcinogen/...)
+Medium,Positive ratio > 5% OR ≥ 1 target,Any Positive record in toxicity assays
+Low,All Negative or no activity data,All Negative or no toxicity data
