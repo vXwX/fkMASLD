@@ -46,4 +46,4 @@ MASLD (Metabolic dysfunction-Associated Steatotic Liver Disease) 药物发现虚
 
 ## 最终结果
 
-`top_10_final.csv` 包含 10 个候选分子，在 DrugCLIP 打分和 MASLD 筛选中综合排名最高，且排除毒性分子。详见 [PIPELINE.md](PIPELINE.md) 和 [SKILL.md](SKILL.md)。
+`Top10.csv` 包含 10 个候选分子，在 DrugCLIP 打分和 MASLD 筛选中综合排名最高，且排除毒性分子。详见 [PIPELINE.md](PIPELINE.md) 和 [SKILL.md](SKILL.md)。
