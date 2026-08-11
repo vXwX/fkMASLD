@@ -40,19 +40,19 @@ MASLD (Metabolic dysfunction-Associated Steatotic Liver Disease) 药物发现虚
 6. **DrugCLIP**: `conda run -n env python pocket/score/prepare_mols.py` → `CUDA_VISIBLE_DEVICES=0 conda run -n DrugClip python pocket/score/run_scoring.py`
 7. **交叉分析**: `conda run -n env python cross_analysis.py`
 
-## GIN 无数据化合物排序流程 (LigUnity 环境)
+## GIN 无数据化合物排序流程 (DrugClip 环境)
 
 对 8,464 个无活性/毒性数据的化合物, 用 GIN 多任务模型预测活性分与毒性分并排序。
 
 ```bash
 # 1. 构建分子图 + 标签
-conda run -n LigUnity python gin/prepare_graphs.py
+conda run -n DrugClip python gin/prepare_graphs.py
 # 2. 训练多任务 GIN (4折GroupKFold, 按活性靶点分组防泄漏)
-conda run -n LigUnity python gin/multi_task_gin.py
+conda run -n DrugClip python gin/multi_task_gin.py
 # 3. 对所有分子打分
-conda run -n LigUnity python gin/predict.py
+conda run -n DrugClip python gin/predict.py
 # 4. 生成 8,464 无数据分子排序
-conda run -n LigUnity python gin/score_rank.py
+conda run -n DrugClip python gin/score_rank.py
 ```
 
 输出: `gin/results/predicted_inactive_ranked.csv` (排序分 = 活性分 × (1 − 毒性分))
@@ -62,8 +62,7 @@ conda run -n LigUnity python gin/score_rank.py
 
 - **env**: RDKit, tqdm, lmdb, mygene, numpy, pandas, biopandas
 - **D3Pockets**: D3Pockets
-- **DrugClip**: DrugCLIP (PyTorch, CUDA)
-- **LigUnity**: GIN 模型训练 (PyTorch + CUDA + RDKit + sklearn)
+- **DrugClip**: DrugCLIP 打分 + GIN 模型训练 (PyTorch + CUDA + RDKit + sklearn)
 
 ## 最终结果
 
