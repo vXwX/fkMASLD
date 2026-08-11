@@ -1,0 +1,27 @@
+device: cuda:0 | cuda: True
+labeled records: 14404
+
+=== Fold 1/4 (train 10803, val 3601) ===
+  ep0: L=1.404 clf=0.409 reg=0.0581 tox=0.937 | va_act_auc=0.6624
+  ep4: L=1.282 clf=0.369 reg=0.0493 tox=0.864 | va_act_auc=0.6727
+  ep9: L=1.254 clf=0.360 reg=0.0478 tox=0.846 | va_act_auc=0.6655
+  ep14: L=1.234 clf=0.355 reg=0.0465 tox=0.833 | va_act_auc=0.6754
+  ep19: L=1.226 clf=0.352 reg=0.0467 tox=0.827 | va_act_auc=0.6862
+  ep24: L=1.221 clf=0.352 reg=0.0462 tox=0.822 | va_act_auc=0.6801
+  early stop at ep25, best_auc=0.6874
+  val:  {'auc_roc_act': 0.6874, 'auc_pr_act': 0.6643, 'pearson_act': 0.2879, 'spearman_act': 0.3768, 'rmse_reg': 0.3303, 'tox_acc': 0.4604, 'tox_auc_macro': 0.6675, 'fold': 0}
+
+=== Fold 2/4 (train 10803, val 3601) ===
+  early stop at ep30, best_auc=0.7471
+  val:  {'auc_roc_act': 0.7471, 'auc_pr_act': 0.945, 'pearson_act': 0.3749, 'spearman_act': 0.492, 'rmse_reg': 0.2202, 'tox_acc': 0.6051, 'tox_auc_macro': 0.7033, 'fold': 1}
+
+=== Fold 3/4 (train 10803, val 3601) ===
+  early stop at ep13, best_auc=0.7299
+  val:  {'auc_roc_act': 0.7299, 'auc_pr_act': 0.9339, 'pearson_act': 0.369, 'spearman_act': 0.4957, 'rmse_reg': 0.2158, 'tox_acc': 0.5823, 'tox_auc_macro': 0.6729, 'fold': 2}
+
+=== Fold 4/4 (train 10803, val 3601) ===
+  early stop at ep11, best_auc=0.7239
+  val:  {'auc_roc_act': 0.7239, 'auc_pr_act': 0.939, 'pearson_act': 0.347, 'spearman_act': 0.4802, 'rmse_reg': 0.219, 'tox_acc': 0.5885, 'tox_auc_macro': 0.6765, 'fold': 3}
+
+Saved best model: /home/gaoxiangxu/Competition/AI4S_202607/gin/results/multitask_gin.pt (val_auc=0.7471)
+Saved /home/gaoxiangxu/Competition/AI4S_202607/gin/results/validation_report.json
