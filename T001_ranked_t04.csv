@@ -1,0 +1,50 @@
+rank,name,smiles,MW,LogP,TPSA,HBD,HBA,RotB,Lipinski_violations,max_tc,best_match,best_target,physchem_compliance,toxic_score,final_score
+1,T7331,C[C@H](CCC(=O)O)[C@H]1CC[C@H]2[C@@H]3[C@@H](O)C[C@@H]4C[C@H](O)CC[C@]4(C)[C@H]3C[C@H](O)[C@]12C,408.58,3.45,97.99,4,4,4,0,0.6866,Aramchol,SCD1,1.0,1.0,0.9923
+2,T19189,C[C@H](CCC(=O)O)[C@H]1CC[C@H]2[C@@H]3[C@H](O)C[C@H]4C[C@H](O)CC[C@]4(C)[C@H]3C[C@H](O)[C@]12C,408.58,3.45,97.99,4,4,4,0,0.6866,Aramchol,SCD1,1.0,1.0,0.9923
+3,T0700,C[C@H](CCC(=O)O)[C@H]1CC[C@H]2[C@@H]3[C@@H](O)C[C@@H]4C[C@H](O)CC[C@]4(C)[C@H]3CC[C@]12C,392.58,4.48,77.76,3,3,4,0,0.6667,Obeticholic acid (OCA),FXR,1.0,1.0,0.981
+4,T0847,C[C@H](CCC(=O)O)[C@H]1CC[C@H]2[C@@H]3[C@H](O)C[C@@H]4C[C@H](O)CC[C@]4(C)[C@H]3CC[C@]12C,392.58,4.48,77.76,3,3,4,0,0.6667,Obeticholic acid (OCA),FXR,1.0,1.0,0.981
+5,T5072,C[C@H](CCC(=O)NCC(=O)O)[C@H]1CC[C@H]2[C@@H]3[C@H](O)C[C@@H]4C[C@H](O)CC[C@]4(C)[C@H]3C[C@H](O)[C@]12C,465.63,2.56,127.09,5,5,6,0,0.6216,Aramchol,SCD1,1.0,1.0,0.9552
+6,T13522,C[C@H](CCC(=O)O)[C@H]1CC[C@H]2[C@@H]3C(=O)C[C@@H]4C[C@H](O)CC[C@]4(C)[C@H]3CC[C@]12C,390.56,4.69,74.6,2,3,4,0,0.6066,Obeticholic acid (OCA),FXR,1.0,1.0,0.9466
+7,TMIH-0148,[2H]C1([2H])C[C@@]2(C)[C@H](C[C@@H](O)[C@@H]3[C@@H]2C[C@H](O)[C@]2(C)[C@@H]([C@H](C)CCC(=O)O)CC[C@@H]32)C([2H])([2H])[C@@H]1O,412.6,3.45,97.99,4,4,4,0,0.6027,Aramchol,SCD1,1.0,1.0,0.9444
+8,T1789,CC[C@H]1[C@@H](O)[C@@H]2[C@H](CC[C@]3(C)[C@@H]([C@H](C)CCC(=O)O)CC[C@@H]23)[C@@]2(C)CC[C@@H](O)C[C@@H]12,420.63,5.11,77.76,3,3,5,1,1.0,Obeticholic acid (OCA),FXR,1.0,0.8,0.94
+9,T7395,O=C(O)CCCc1cc2cc(Cl)ccc2n1S(=O)(=O)c1ccc2ncsc2c1,434.93,4.55,89.26,1,5,6,0,1.0,Lanifibranor (IVA-337),PPAR-alpha/gamma/delta,1.0,0.8,0.94
+10,T5234,C[C@H](CCC(=O)NCC(=O)O)[C@H]1CC[C@H]2[C@@H]3[C@@H](O)C[C@@H]4C[C@H](O)CC[C@]4(C)[C@H]3CC[C@]12C,449.63,3.59,106.86,4,4,6,0,0.5455,Obeticholic acid (OCA),FXR,1.0,1.0,0.9117
+11,TWA2417,C[C@H](CCC(=O)NCCS(=O)(=O)[O-])[C@H]1CC[C@H]2[C@@H]3[C@H](O)CC4C[C@H](O)CC[C@]4(C)[C@H]3C[C@H](O)[C@]12C,514.71,2.03,146.99,4,7,7,1,0.5432,Aramchol,SCD1,1.0,1.0,0.9104
+12,T2965,CC(CCC(=O)O)C1CCC2C3CCC4CC(O)CCC4(C)C3CC(O)C12C,392.58,4.48,77.76,3,3,4,0,0.5135,Aramchol,SCD1,1.0,1.0,0.8934
+13,T5259,C[C@H](CCC(=O)NCC(=O)[O-])[C@H]1CC[C@H]2[C@@H]3[C@H](O)C[C@@H]4C[C@H](O)CC[C@]4(C)[C@H]3CC[C@]12C,448.62,2.26,109.69,3,5,6,0,0.4928,Obeticholic acid (OCA),FXR,1.0,1.0,0.8816
+14,T14002,C[C@H](CCC(=O)O)[C@H]1CC[C@H]2[C@@H]3CC[C@@H]4C[C@H](O)CC[C@]4(C)[C@H]3CC(=O)[C@]12C,390.56,4.69,74.6,2,3,4,0,0.4925,Obeticholic acid (OCA),FXR,1.0,1.0,0.8814
+15,T3595,CC(C)c1cc(Oc2c(Cl)cc(-n3nc(C#N)c(=O)[nH]c3=O)cc2Cl)n[nH]c1=O,435.23,2.1,146.52,2,7,4,0,1.0,Resmetirom,THR-beta,1.0,0.6,0.88
+16,T4083,CC[C@@H]1[C@H](O)[C@@H]2[C@H](CC[C@]3(C)[C@@H]([C@H](C)CCCO)CC[C@@H]23)[C@@]2(C)CC[C@@H](O)C[C@@H]12,406.65,5.02,60.69,3,3,5,1,0.7593,Obeticholic acid (OCA),FXR,1.0,0.6,0.88
+17,T7184,COc1ccccc1[C@H](Cn1c(=O)n(C(C)(C)C(=O)O)c(=O)c2c(C)c(-c3ncco3)sc21)OC1CCOCC1,569.64,3.95,135.02,1,9,9,1,1.0,Firsocostat (GS-0976),ACC,1.0,0.6,0.88
+18,TQ0252,CC[C@H]1[C@@H](O)[C@@H]2[C@H](CC[C@]3(C)[C@@H]([C@H](C)CCO)CC[C@@H]23)[C@@]2(C)CC[C@@H](O)C[C@@H]12,392.62,4.63,60.69,3,3,4,0,0.7736,Obeticholic acid (OCA),FXR,1.0,0.6,0.88
+19,TQ0243,COc1ccccc1[C@H](Cn1c(=O)n(C(C)(C)C(N)=O)c(=O)c2c(C)c(-c3ncco3)sc21)OC1CCOCC1,568.65,3.35,140.81,1,9,9,1,0.8889,Firsocostat (GS-0976),ACC,1.0,0.6,0.88
+20,T8092,C[C@H](CCC(=O)NCCS(=O)(=O)[O-])[C@H]1CC[C@H]2[C@@H]3C[C@H](O)[C@@H]4C[C@H](O)CC[C@]4(C)[C@H]3CC[C@]12C,498.71,3.05,126.76,3,6,7,0,0.4789,Obeticholic acid (OCA),FXR,1.0,1.0,0.8736
+21,T2532,C[C@H](CCC(=O)NCCS(=O)(=O)O)[C@H]1CC[C@H]2[C@@H]3[C@@H](O)C[C@@H]4C[C@H](O)CC[C@]4(C)[C@H]3CC[C@]12C,499.71,3.4,123.93,4,5,7,0,0.4722,Obeticholic acid (OCA),FXR,1.0,1.0,0.8698
+22,T2A2481,C[C@H](CCC(=O)NCCS(=O)(=O)O)[C@H]1CC[C@H]2[C@@H]3[C@H](O)C[C@@H]4C[C@H](O)CC[C@]4(C)[C@H]3CC[C@]12C,499.71,3.4,123.93,4,5,7,0,0.4722,Obeticholic acid (OCA),FXR,1.0,1.0,0.8698
+23,T6993,C[C@H](CCC(=O)NCCS(=O)(=O)[O-])[C@H]1CC[C@H]2[C@@H]3[C@@H](O)C[C@@H]4C[C@H](O)CC[C@]4(C)[C@H]3CC[C@]12C,498.71,3.05,126.76,3,6,7,0,0.4658,Obeticholic acid (OCA),FXR,1.0,1.0,0.8661
+24,T4727,C[C@H](CCC(=O)NCCS(=O)(=O)[O-])[C@H]1CC[C@H]2[C@@H]3CC[C@@H]4C[C@H](O)CC[C@]4(C)[C@H]3CC[C@]12C,482.71,4.08,106.53,2,5,7,0,0.4324,Obeticholic acid (OCA),FXR,1.0,1.0,0.8471
+25,T5077,C[C@H](CCC(=O)[O-])[C@H]1CC[C@H]2[C@@H]3CC[C@@H]4C[C@H](O)CC[C@]4(C)[C@H]3C[C@H](O)[C@]12C,391.57,3.14,80.59,2,4,4,0,0.4304,Aramchol,SCD1,1.0,1.0,0.8459
+26,T5254,C[C@H](CCC(=O)NCC(=O)[O-])[C@H]1CC[C@H]2[C@@H]3CC[C@@H]4C[C@H](O)CC[C@]4(C)[C@H]3C[C@H](O)[C@]12C,448.62,2.26,109.69,3,5,6,0,0.4286,Aramchol,SCD1,1.0,1.0,0.8449
+27,T2202,[H][C@]12CC[C@]3([H])[C@]([H])(CC[C@]4(C)[C@@H]([C@H](C)CCC(=O)O)CC[C@@]34[H])[C@@]1(C)CC[C@@H](O)C2,376.58,5.51,57.53,2,2,4,1,0.5238,Obeticholic acid (OCA),FXR,1.0,0.8,0.8393
+28,T8153,[H][C@@]12C[C@H](O)[C@]3([H])C[C@H](O)CC[C@]3(C)[C@@]1([H])CC[C@]1(C)[C@@H]([C@H](C)CCC(=O)NCC(=O)O)CC[C@@]21[H],449.63,3.59,106.86,4,4,6,0,0.4167,Obeticholic acid (OCA),FXR,1.0,1.0,0.8381
+29,T29078,[H][C@@]12C[C@H](O)CC[C@]1(C)[C@@]1([H])CC[C@@]3(C)[C@@]([H])(CC[C@]3([H])[C@@H](C)CCC(=O)O)[C@]1([H])[C@@H](O)C2,392.58,4.48,77.76,3,3,4,0,0.4118,Obeticholic acid (OCA),FXR,1.0,1.0,0.8353
+30,T13506,[H][C@@]12C[C@@H](O)CC[C@]1(C)[C@@]1([H])CC[C@@]3(C)[C@@]([H])(CC[C@]3([H])[C@H](C)CCC(=O)O)[C@]1([H])[C@@H](O)C2,392.58,4.48,77.76,3,3,4,0,0.4118,Obeticholic acid (OCA),FXR,1.0,1.0,0.8353
+31,T207107,[H][C@@]12C[C@@H](O)CC[C@]1(C)[C@@]1([H])CC[C@@]3(C)[C@@]([H])(CC[C@]3([H])[C@H](C)CCC(=O)O)[C@]1([H])[C@H](O)C2,392.58,4.48,77.76,3,3,4,0,0.4118,Obeticholic acid (OCA),FXR,1.0,1.0,0.8353
+32,T13505,[H][C@]12CC[C@]3([H])[C@]([H])(C[C@@H](O)[C@@]4(C)[C@@]3([H])CC[C@]4([H])[C@H](C)CCC(=O)O)[C@@]1(C)CC[C@@H](O)C2,392.58,4.48,77.76,3,3,4,0,0.4085,Obeticholic acid (OCA),FXR,1.0,1.0,0.8334
+33,T84944,[H][C@]12CC[C@]3([H])[C@]([H])(C[C@H](O)[C@@]4(C)[C@@]3([H])CC[C@]4([H])[C@H](C)CCC(=O)O)[C@@]1(C)CC[C@H](O)C2,392.58,4.48,77.76,3,3,4,0,0.4085,Obeticholic acid (OCA),FXR,1.0,1.0,0.8334
+34,T2968,[H][C@@]12C[C@H](O)[C@]3([H])C[C@H](O)CC[C@]3(C)[C@@]1([H])CC[C@]1(C)[C@@H]([C@H](C)CCC(=O)O)CC[C@@]21[H],392.58,4.48,77.76,3,3,4,0,0.5079,Obeticholic acid (OCA),FXR,1.0,0.8,0.8302
+35,T31964,C[C@H](CCC(=O)NCC(=O)O)[C@H]1CC[C@H]2[C@@H]3CC[C@@H]4C[C@H](O)CC[C@]4(C)[C@H]3CC[C@]12C,433.63,4.62,86.63,3,3,6,0,0.5075,Obeticholic acid (OCA),FXR,1.0,0.8,0.83
+36,T15271,Cc1n[nH]c(-c2cc(C(=O)N3CCC(c4ccc(C#N)cc4)CC3)c(C)cc2C2CCC2)n1,439.56,5.25,85.67,1,4,4,1,0.7612,Denifanstat (TVB-2640),FASN,1.0,0.4,0.82
+37,T11428,[H][C@@]12CC[C@H]([C@H](C)CCC(=O)NCC(=O)O)[C@@]1(C)CC[C@]1([H])[C@@]3(C)CC[C@@H](O)C[C@@]3([H])[C@@H](CC)[C@@H](O)[C@@]21[H],477.69,4.23,106.86,4,4,7,0,0.4861,Obeticholic acid (OCA),FXR,1.0,0.8,0.8178
+38,T5313,Cc1cc(OCC(=O)O)cc(C)c1Cc1ccc(O)c(C(C)C)c1,328.41,4.19,66.76,2,3,6,0,0.4722,VK2809,THR-beta,1.0,0.8,0.8098
+39,T13502,C[C@H](CCC(=O)O)[C@H]1CC[C@H]2[C@@H]3CC[C@@H]4CC(=O)CC[C@]4(C)[C@H]3CC[C@]12C,374.57,5.72,54.37,1,2,4,1,0.4697,Obeticholic acid (OCA),FXR,1.0,0.8,0.8084
+40,TMIH-0182,[2H]C1([2H])C[C@@]2(C)[C@H](CC[C@@H]3[C@@H]2C[C@H](O)[C@]2(C)[C@@H]([C@H](C)CCC(=O)O)CC[C@@H]32)C([2H])([2H])[C@@H]1O,396.6,4.48,77.76,3,3,4,0,0.4684,Aramchol,SCD1,1.0,0.8,0.8076
+41,T11954,Cc1cc(OCP(=O)(O)O)cc(C)c1Cc1ccc(O)c(C(C)C)c1,364.38,4.24,86.99,3,3,6,0,0.4658,VK2809,THR-beta,1.0,0.8,0.8061
+42,T35792,[H][C@]12CC[C@]3([H])[C@]([H])(CC[C@@]4(C)[C@@]3([H])CC[C@]4([H])[C@H](C)CCC(=O)O)[C@@]1(C)CC[C@H](O)C2,376.58,5.51,57.53,2,2,4,1,0.4328,Obeticholic acid (OCA),FXR,1.0,0.8,0.7873
+43,T36522,[H][C@@]12CC[C@]3([H])[C@]([H])(CC[C@@]4(C)[C@@]3([H])CC[C@]4([H])[C@H](C)CCC(=O)O)[C@@]1(C)CC[C@H](O)C2,376.58,5.51,57.53,2,2,4,1,0.4328,Obeticholic acid (OCA),FXR,1.0,0.8,0.7873
+44,T13092,[H][C@@]12CC[C@H]([C@H](C)CCC(=O)NCCS(=O)(=O)O)[C@@]1(C)CC[C@]1([H])[C@@]3(C)CC[C@@H](O)C[C@@]3([H])[C@@H](CC)[C@@H](O)[C@@]21[H],527.77,4.03,123.93,4,5,8,1,0.4231,Obeticholic acid (OCA),FXR,1.0,0.8,0.7818
+45,T7628,CC(CCC(=O)O)C1CCC2C3CC=C4CC(O)CCC4(C)C3CCC12C,374.57,5.43,57.53,2,2,4,1,0.5152,Obeticholic acid (OCA),FXR,1.0,0.6,0.7744
+46,T17181,COCc1nc(C(F)(F)F)[nH]c1-c1cc(C(=O)N2CC(c3ccc(C#N)cc3)C2)c(C)cc1C,468.48,4.97,82.01,1,4,5,0,0.4353,Denifanstat (TVB-2640),FASN,1.0,0.6,0.7287
+47,T11557,Cc1cc(C)c(-c2[nH]nc(C)c2C)cc1C(=O)N1CC(c2ccc(C#N)cc2)C1,384.48,4.42,72.78,1,3,3,0,0.5205,Denifanstat (TVB-2640),FASN,1.0,0.4,0.7175
+48,T17180,Cc1cc(C)c(-c2n[nH]c(C)c2C)cc1C(=O)N1CC(c2ccc(C#N)cc2)C1,384.48,4.42,72.78,1,3,3,0,0.5205,Denifanstat (TVB-2640),FASN,1.0,0.4,0.7175
+49,T19526,Nc1ncnc2c1ncn2CCOC[P@@]1(=O)OCC[C@@H](c2cccc(Cl)c2)O1,423.8,3.41,114.38,1,8,6,0,0.4111,VK2809,THR-beta,1.0,0.4,0.6549
