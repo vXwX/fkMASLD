@@ -25,3 +25,4 @@ TestResults.xml
 data/activity.csv
 data/toxicity.csv
 bioassay/
+gin/results/graphs.pkl
