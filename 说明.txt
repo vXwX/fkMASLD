@@ -1,0 +1,48 @@
+分药物相似度筛选结果（2026-08-14）
+============================================================
+
+生成方式：
+  以 9 个 MASLD 临床阶段参考药为锚点，对 Phase 2 理化通过集（6451 个分子）
+  分别计算 2D 摩根指纹(ECFP4, radius=2, 2048-bit) Tanimoto 相似度。
+  每个参考药单独生成一个 CSV，按与该药的相似度从高到低排序。
+
+本次未设置相似度阈值（保留全量供二次筛选）。
+  建议合作者优先选取 similarity >= 0.6 的分子（各表统计见下）。
+
+各文件列含义：
+  name                  分子 ID（TargetMol 现货编号）
+  smiles                规范 SMILES（可用于对接/再计算）
+  MW / LogP / TPSA      分子量 / 脂水分配系数 / 拓扑极性表面积
+  HBD / HBA / RotB      氢键供体 / 受体 / 可旋转键数
+  Lipinski_violations   Lipinski 五规则违规数（<=1 视为类药）
+  ref_drug / ref_target 当前表的锚点药名 / 靶点
+  similarity            该分子与锚点药的 Tanimoto 相似度（0-1，越大越像）
+  dili_prob              ADMET-AI 预测的肝毒性(DILI)概率（越大越可能伤肝）
+  dili_risk              DILI 风险档（>=0.5 标 High）
+
+注意：
+  - dili_prob 为 in silico 透明参考，区分度有限（对已知毒药灵敏、对安全药易误报），
+    仅作排雷参考，不替代 HepG2 实验的细胞活力/降脂读数。
+  - 最终 5 个候选请合作者从其有活性实验记录的 CSV 中，结合本表 similarity 挑选。
+
+各表统计（总行数均为 6451）：
+  Resmetirom               [THR-beta            ]  sim>=0.6: 1
+  VK2809                   [THR-beta            ]  sim>=0.6: 0
+  Obeticholic acid (OCA)   [FXR                 ]  sim>=0.6: 16
+  Cilofexor (GS-9674)      [FXR                 ]  sim>=0.6: 0
+  Lanifibranor (IVA-337)   [PPAR-alpha/gamma/delta]  sim>=0.6: 1
+  Firsocostat (GS-0976)    [ACC                 ]  sim>=0.6: 2
+  Denifanstat (TVB-2640)   [FASN                ]  sim>=0.6: 1
+  BI-1467335               [AOC3/VAP-1          ]  sim>=0.6: 0
+  Aramchol                 [SCD1                ]  sim>=0.6: 8
+
+文件清单：
+  Resmetirom.csv
+  VK2809.csv
+  Obeticholic_acid_OCA.csv
+  Cilofexor_GS-9674.csv
+  Lanifibranor_IVA-337.csv
+  Firsocostat_GS-0976.csv
+  Denifanstat_TVB-2640.csv
+  BI-1467335.csv
+  Aramchol.csv
