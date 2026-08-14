@@ -1,0 +1,11 @@
+ID,smiles,source,ref_drug,ref_target,similarity,DrugCLIP_Score,Best_Gene,Activity_Level,Toxicity_Level,rank_dc
+T11428,[H][C@@]12CC[C@H]([C@H](C)CCC(=O)NCC(=O)O)[C@@]1(C)CC[C@]1([H])[C@@]3(C)CC[C@@H](O)C[C@@]3([H])[C@@H](CC)[C@@H](O)[C@@]21[H],drugsim_top1/Obeticholic_acid_OCA,Obeticholic acid (OCA),FXR,0.8103,0.2395,PPARG,高活性,低毒性,
+T4588,[H][C@@]12C[C@H](O)CC[C@]1(C)[C@@]1([H])CC[C@@]3(C)[C@@]([H])(CC[C@]3([H])[C@H](C)CCC(=O)NCC(=O)O)[C@]1([H])[C@H](O)C2,drugsim_top1/Aramchol,Aramchol,SCD1,0.4872,0.2308,PPARG,活性,低毒性,
+T11954,Cc1cc(OCP(=O)(O)O)cc(C)c1Cc1ccc(O)c(C(C)C)c1,drugsim_top1/VK2809,VK2809,THR-beta,0.4658,0.3186,PPARG,活性,低毒性,
+T15575,COc1ccc(S(=O)(=O)n2cc(CCC(=O)O)c3cc(OC)ccc32)cc1,drugsim_top1/Lanifibranor_IVA-337,Lanifibranor (IVA-337),PPAR-alpha/gamma/delta,0.2692,0.4641,PPARG,高活性,低毒性,
+T7947,O=C(c1ccc(-c2nc3ccc(F)cc3o2)cc1)N1CCN(C(=O)C2(O)CC2)CC1,drugsim_top1/Denifanstat_TVB-2640,Denifanstat (TVB-2640),FASN,0.2135,0.4219,PPARG,活性,低毒性,
+T15621,CS(=O)(=O)CCCn1c(Cn2c(=O)n(CC(F)(F)F)c3ccncc32)cc2cc(Cl)ccc21,dc_active_toxicity_top5,,,,0.6738,PPARG,,,1
+T17243,Cc1csc(N(C(=O)CSc2ccc(-c3ccccc3)nn2)C2CC2)n1,dc_active_toxicity_top5,,,,0.6968,PPARG,,,2
+T37385,Nc1nnc(CCCCc2ccc(NC(=O)Cc3cccc(OC(F)(F)F)c3)nn2)s1,dc_active_toxicity_top5,,,,0.6157,PPARG,,,3
+T3261,COc1ccc(C(=O)C2CCN(CC(=O)N(Cc3nc(=O)c4c([nH]3)CCOC4)CC3CC3)CC2)cc1,dc_active_toxicity_top5,,,,0.4861,AOC3,,,4
+T27682,O=C(CNC(=O)c1cccc(C(F)(F)F)c1)NC1CN([C@H]2CC[C@@](O)(c3cncs3)CC2)C1,dc_active_toxicity_top5,,,,0.5757,PPARG,,,5
